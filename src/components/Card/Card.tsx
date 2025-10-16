@@ -39,6 +39,8 @@ export function Card({
           </div>
         </Link>
       </CardComponent>
+      <input type="hidden" value={url} />
     </CardContainer>
   );
 }
+
